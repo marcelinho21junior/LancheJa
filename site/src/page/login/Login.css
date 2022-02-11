@@ -1,0 +1,93 @@
+.linkLanchejalogin{
+    text-decoration: none;
+}
+
+
+
+.ContainerLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+    background-color:rgb(230, 230, 230);;
+    margin-bottom: -1.5rem;
+}
+
+.ContainerLoginIMG{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: teal;
+}
+
+.ContainerLoginLOGIN{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 70%;
+}
+
+.ContainerLoginLOGINInputeMSG{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 20%;
+}
+
+.ContainerLoginNaoPossuoCadastroEsqueciSenha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkLanchejalogin{
+    text-decoration: none;
+    color: black;
+}
+
+.linkLanchejalogin:hover{
+    color: blue;
+    font-weight: 500;
+}
+
+.ContainerLoginLOGINInput{
+    width: 70%;
+    height: 40%;
+    background-color: white;
+    border-radius: 10PX;
+}
+
+/*------------------------------------botao----------------------*/
+.ContainerLoginBtn{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContainerLoginBtnBotao{
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: tomato;
+}
+
+/*-------------------------------------------Footer-------------------------------------*/
+.FooterLancheJa{
+}
+
+.FooterImgLancheJa{
+    width: 100%;
+    height: 20rem;
+}

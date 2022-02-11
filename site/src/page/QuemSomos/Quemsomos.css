@@ -1,0 +1,47 @@
+.ContainerQuemSomos{
+   
+}
+
+/*-----------------------------------------titulo---------------------------------*/
+.tituloQuemSomosCorLaranja{
+    background-color:#F68235;
+    height: 5rem;
+}
+
+.tituloQuemSomos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 5rem;
+}
+
+.TxttituloQuemSomosLancheJá{
+    margin-left: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.TxttituloQuemSomos{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+/*---------------------------------IMAGENS CONTEUDO---------------------------------*/
+.QuemSomosImagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    background-color: #F68235;
+    border-radius: 10px;
+}
+
+.QuemSomosImagensIndividuais{
+    border-radius: 10px;
+    height: 25rem;
+    background-color: aqua;
+}

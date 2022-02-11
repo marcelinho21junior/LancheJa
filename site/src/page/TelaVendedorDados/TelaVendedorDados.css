@@ -1,0 +1,139 @@
+.HeaderTelasVendedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color: tomato;
+}
+
+.HeaderTelasVendedorLancheJa{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+}
+
+.HeaderTelasVendedorSair{
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    color: white;
+    font-weight: 500;
+}
+
+/*cadastros do sistema*/
+.ContainerTelaVendedorDadosBotoesMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.ContainerTelaVendedorDadosBotoesMenuBTN{
+    display: flex;
+    margin: 20px;
+    background-color: rgb(71, 74, 255);
+}
+
+.ContainerTelaVendedorDadosBotoesMenuBTNbotaoSelecionado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: tomato;
+    text-decoration: none;
+}
+
+.ContainerTelaVendedorDadosBotoesMenuBTNbotao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 3rem;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    text-decoration: none;
+}
+
+.ContainerTelaVendedorDadosBotoesMenuBTNbotao:hover{
+    background-color: tomato;
+    color: white;
+}
+
+/*--------------------------------------------conteudo da pagina---------------------------------------------*/
+.ContainerTelaVendedorDadosCadastroConteudos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 75vh;
+    margin-bottom:-2rem;
+}
+
+.TelaVendedorDadosCadastroConteudosTODOSINPUTS{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    background-color: brown;
+}
+
+.TelaVendedorDadosCadastroConteudos{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 80%;
+    background-color: blueviolet;
+}
+
+.TelaVendedorDadosCadastroConteudosPeInput{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.TelaVendedorDadosCadastroConteudosINPUT{
+    height: 30px;
+    border-radius: 5px;
+}
+
+.TelaVendedorDadosCadastroConteudosP{
+    font-weight: bold;
+    color: white;
+}
+
+/*lado direito*/
+
+.TelaVendedorDadosCadastroConteudosBOTAO{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40%;
+    margin-left: 20%;
+    height: 5rem;
+    width: 10rem;
+    border-radius: 10rem;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: tomato;
+}
+
+
+
+
+
+
+
+
+
+

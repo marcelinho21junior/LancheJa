@@ -1,0 +1,181 @@
+.ContainerTelaCLienteHome{
+    background-color: aqua;
+    height: 100vh;
+}
+
+/*-------------------------------TelaCLienteHomeMenuEbemVindo-------------------------------------*/
+.TelaCLienteHomeMenuEbemVindo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F68235;
+    width: 100%;
+    height: 2rem;
+}
+
+.TelaCLienteHomebemVindo{/*BEM VINDO FULANO*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    background-color: tomato;
+}
+
+.TelaCLienteHomeIconeMenu{/*MENU DROPDOWN*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    background-color: tomato;
+}
+
+/*menu NAVBAR*/
+.TelaCLienteHomeIconeMenuNAVBotao{
+    position: relative;
+    display: inline-block;
+    width: 10rem;
+    height: 2rem;
+    background-color:tomato;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.TelaCLienteHomeIconeMenuNAVMenu{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    text-align: center;
+    z-index: 1;
+}
+
+.TelaCLienteHomeIconeMenuNAVMenu p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.TelaCLienteHomeIconeMenuNAVMenu p:hover{
+    background-color: #F68235;
+    color:rgb(255, 255, 255);
+    
+}
+
+.TelaCLienteHomeIconeMenuNAVMenuWord{
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+}
+
+.TelaCLienteHomeIconeMenuNAV:hover .TelaCLienteHomeIconeMenuNAVMenu{
+    display: block;
+}
+
+.TelaCLienteHomeIconeMenuNAV:hover .TelaCLienteHomeIconeMenuNAVBotao{
+    background-color: transparent;
+}
+
+/*-------------------------------CARD GRANDE CENTRAL DE EXPLICAÇAO-------------------------------------*/
+.TelaCLienteHomeCardGrandeCentral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    background-color: violet;
+}
+
+/*-------------------------------pesquisar produtos-------------------------------------*/
+.TelaClienteHomePesquisarProdutos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 30rem;
+    background-color: blue;
+}
+
+.TelaClienteHomePesquisarProdutos2inputs{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    background-color: blueviolet;
+}
+
+.TelaClienteHomePesquisarProdutosinput{
+    height: 2rem;
+    width: 25rem;
+    border-radius: 10px;
+}
+
+.TelaClienteHomeTodosCards{
+    display: flex;
+    width: 90%;
+    background-color: #f76503;
+}
+
+.TelaClienteHomeCardsUnico{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+/*-------------------------------TelaCLienteHomeCarrouselCategorias-------------------------------------*/
+
+.TelaCLienteHomeCarrouselCategorias{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 15rem;
+    background-color: yellow;
+}
+
+
+/*-------------------------------CARDS DOS VENDEDORES-------------------------------------*/
+.TelaClienteHomeCardsVendedores{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 15rem;
+    width: 100%;
+    background-color: yellowgreen;
+}
+
+.TelaClienteHomeCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 40%;
+    background-color: tomato;
+}
+
+.TelaClienteHomeCardsimagem{
+    border-radius: 50px;
+    width:80%;
+}
+
+.TelaClienteHomeCardsInfoImagem{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}

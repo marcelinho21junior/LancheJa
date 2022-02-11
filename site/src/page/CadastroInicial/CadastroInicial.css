@@ -1,0 +1,116 @@
+.ContainerCadastroInicial{
+    background-color: aqua;
+    margin: 0;
+    height: 100vh;
+    margin-bottom: -0.5rem;
+}
+
+/*---------------------------CadastroInicialCadastroEImagem-------------------------*/
+.CadastroInicialCadastroEImagem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 90%;
+}
+
+.CadastroInicialCadastroItensDoCadastroImagem{/*imagem*/
+    display: flex;
+    background-color: rgb(196, 196, 196);
+    height: 15%;
+    width: 10%;
+    border-radius: 50px;
+    margin-bottom: 2rem;
+}
+
+.CadastroInicialCadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    background-color: rgb(226, 218, 216);
+}
+
+.CadastroInicialCadastroItensDoCadastro{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.CadastroInicialCadastroItensDoCadastroINPUT{/*INPUT*/
+    width: 30rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.CadastroInicialCadastroItensDoCadastroINPUTCodigoIndicaçao{
+    width: 14.7rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.CadastroInicialCadastroItensDoCadastroNomeESobrenome{/*nome e sobrenome*/
+    display: flex;
+    margin-left: 5px;
+    background-color: rgb(226, 218, 216);
+}
+
+.CadastroInicialCadastroItensDoCadastroNomeESobrenomeindividual{/*nome e sobrenome*/
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+}
+
+.CadastroInicialCadastroItensDoCadastroINPUTNomeESobrenome{/*INPUT nome e sobrenome*/
+    width: 14.7rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.CadastroInicialImagem{/*imagem*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 80%;
+}
+
+.CadastroInicialImagemIMG{/*imagem*/
+    width: 90%;
+    height: 80%;
+    border-radius: 50px;
+}
+
+.CadastroInicialCadastroJaPossuiCadastro{
+    text-decoration: none;
+    color: black;
+}
+
+.CadastroInicialCadastroJaPossuiCadastro:hover{
+    color: blue;
+    font-weight: 500;
+}
+
+.CadastroInicialCadastroBTN{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.CadastroInicialCadastroBTNCadastro{
+    background-color: rgb(245, 44, 9);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.LinkcadastroInicial{
+    text-decoration: none;
+}

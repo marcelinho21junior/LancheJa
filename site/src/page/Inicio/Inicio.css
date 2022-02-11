@@ -1,0 +1,268 @@
+.containerInicio{
+    background-color: white;
+    width: 100%;
+}
+
+
+/*--------------------------------titulo inicio------------------------------*/
+.tituloInicio{
+    background-color: #F68235;
+    height: 5rem;
+}
+
+.TxttituloInicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/*------------------------------Inicio abaixo titulo--------------------------------*/
+.InicioAbaixoTitulo{
+    background-color: #EBEBEB;
+}
+
+.InicioAbaixoTitulo3Botoes{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+.btnInicioAbaixoTitulo{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+}
+
+.btnInicioAbaixoTituloENTRAR{
+    margin: 15px;
+    text-decoration: none;
+    background-color:#F68235;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.humanoIMGPesquisa{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 20rem;
+}
+
+.humanoIMGPesquisatxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    color:#F68235;
+    font-family: 'Open Sans', sans-serif;
+    width: 60%;
+    background-color: black;
+}
+
+.humanoIMGPesquisaPesquisa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    font-family: 'Open Sans', sans-serif;
+    width: 40%;
+    background-color: #EBEBEB;
+}
+
+.humanoIMGPesquisaPesquisaInput{
+    height: 3rem;
+    width: 22rem;
+    border-radius: 5%;
+}
+
+.humanoIMGPesquisaPesquisaBOTAO{
+    text-decoration: none;
+    background-color:#F68235;
+    color: white;
+    font-weight: bold;
+    padding: 13px;
+    border-radius: 15px;
+}
+
+
+/*------------------------------IMAGENS 3 CARDS--------------------------------*/
+.ImgCards{
+    display: flex;
+    justify-content: space-around;   
+    align-items: center;
+    height: 15rem;
+}
+
+.ImgCardsCARD{
+    height: 8rem;
+    width: 15rem;
+}
+
+.ImgCardsCARDImg{
+    height: 100%;
+    width: 100%;
+}
+
+/*------------------------------Como funciona para cliente--------------------------------*/
+
+.TITULOComoFuncionaPClientesXVendedores{
+    background-color: #F68235;
+    height: 5rem;   
+}
+
+.ComoFuncionaPClientesXVendedoresTXT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}   
+
+.ComoFuncionaPClientesXVendedoresItens{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20rem;
+}
+
+.ComoFuncionaPClientesXVendedoresImgTxt{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 70%;
+}
+
+.ComoFuncionaPClientesXVendedoresItensImagens{
+    height: 10rem;
+    width: 10rem;
+    background-color: tomato;
+}
+
+.ComoFuncionaPClientesXVendedoresItensImagens{
+    height: 10rem;
+    width: 10rem;
+}
+
+/*------------------------------LANCHES ENCONTRADOS AQUI!--------------------------------*/
+.ContainerlancheEncontradosAqui{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgb(243, 243, 243);
+}
+
+.lancheEncontradosAquiTitulo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    color: tomato;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.lancheEncontradosAquiCampoCategorias{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 30rem;
+}
+
+.lancheEncontradosAquiCategoriasSubTema{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-left: 8rem;
+    height: 3rem;
+    color:tomato;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.lancheEncontradosAquiTodasCategorias{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 10rem;
+}
+
+.lancheEncontradosAquiindividual3em3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lancheEncontradosAqui1categoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:tomato;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: white;
+    padding: 8px;
+    width: 10rem;
+    border-radius: 10px;
+    box-shadow:0 2px 2px tomato;
+}
+
+.lancheEncontradosAqui1categoria:hover{
+    font-weight: bolder;
+    box-shadow:0 4px 10px tomato;
+}
+
+/*------------------------------VAMOS NOS CONHECER--------------------------------*/
+.ContainerVemSerAmigoDaGnt{
+    height: 30rem;
+    margin-top: 3rem;
+}
+
+.ContainerVemSerAmigoDaGntTITULO{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: tomato;
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: 'Yatra One', cursive;
+}
+
+.ContainerVemSerAmigoDaGnt3Cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20rem;
+}
+
+.ContainerVemSerAmigoDaGntCardeTxt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 15rem;
+}
+
+.ContainerVemSerAmigoDaGntCardImagem{
+    width: 70%;
+    border-radius: 10px;
+}
+
+.ContainerVemSerAmigoDaGntTXT{
+    color:#F46E16;
+    font-size: 20px;
+    font-weight: 700;
+}

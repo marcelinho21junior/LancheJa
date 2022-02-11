@@ -1,0 +1,49 @@
+.ContainerConteudoProdutosCadastrados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 75vh;
+    margin-bottom:0;
+    background-color: tomato;
+    overflow:scroll;
+    
+}
+
+.ContainerConteudoProdutosCadastradosImgConteudoBotoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    width: 70%;
+    height: 30%;
+    background-color: teal;
+    margin: 5px;
+}
+
+/*IMG*/
+.ContainerConteudoProdutosCadastradosIMG{
+    width: 20%;
+    background-color: turquoise;
+}
+
+/*Conteudo*/
+.ContainerConteudoProdutosCadastradosConteudo{
+    width: 40%;
+    background-color: violet;
+}
+
+/*botoes*/
+.ContainerConteudoProdutosCadastradosBotoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    background-color: yellow;
+}
+
+.ContainerConteudoProdutosCadastradosBotoesBTN{
+    text-decoration: none;
+    background-color: lawngreen;
+}
